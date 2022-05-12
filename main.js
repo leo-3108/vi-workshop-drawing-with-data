@@ -1,13 +1,15 @@
-d3.csv('./temperature.csv', function(error, data) {
-    if(error){
-        console.log(error)
-    }
-    else{
-    generateVisualization(data)
-    }
+var temperature = [];
+var month = [];
+
+async function generateVizualisation(){
+
+await d3.csv('./temperature.csv', function(data) {
+    temperature.push(parseInt(data.temperature));
+    month.push(data.month);
 });
 
-var generateVisualization = function(data){
-    console.log(data)
-    //...
+    // Code hier einfügen
+
 }
+
+generateVizualisation()
