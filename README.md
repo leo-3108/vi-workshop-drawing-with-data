@@ -8,3 +8,7 @@ Folgende Anforderungen sollen berücksichtigt werden:
     - Temperatur ≥ 15 Grad: Rot
     - Temperatur < 15 Grad: Blau
 - Beschrifte die einzelnen Bars mit den jeweiligen Monatsnamen
+
+
+
+> Im Branch "Loesungsvorschlag" findet ihr eine mögliche Lösung der Aufgabe. Über [diesen Link](https://leo-3108.github.io/vi-workshop-drawing-with-data/) kann der Bar-Chart geöffnet werden.
